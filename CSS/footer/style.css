@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+}
+
+footer {
+  margin-top: auto;
+  /*funciona quando está dentro de uma caixa flex, no caso o body*/
+  background: lightgray;
+  height: 8rem;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+p {
+  color: grey;
+}

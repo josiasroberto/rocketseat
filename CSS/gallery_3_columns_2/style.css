@@ -1,0 +1,18 @@
+* {
+  margin: 0
+}
+
+#gallery {
+  display: flex;
+  gap: .8rem;
+  flex-wrap: wrap;
+  /*max-width: 950px;*/
+  padding: 40px;
+  margin: 40px auto;
+  justify-content: center;
+}
+
+img {
+  width: 30%;
+  height: auto;
+}

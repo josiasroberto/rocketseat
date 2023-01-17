@@ -1,0 +1,16 @@
+button{
+  display: flex;
+  align-items:  center;
+  line-height: 0; /*better alignment using text in buttons*/
+  gap: .4rem;
+}
+
+button img{
+  width: 2rem;
+  height: 2rem;
+}
+
+#buttons{
+  display: flex;
+  gap: 2rem;
+}
